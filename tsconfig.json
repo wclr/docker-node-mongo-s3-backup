@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "outDir": ".",
+    "declaration": true,
+    "module": "commonjs",
+    "strict": true,
+    "newLine": "LF",
+    "strictFunctionTypes": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "allowJs": false,
+    "noEmit": false    
+  },
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2
+  },      
+  "include": [
+    "src/*"    
+  ],
+  "exclude": [
+    "**/.yalc/*",
+    "**/node_modules/*"
+  ]
+}

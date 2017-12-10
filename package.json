@@ -1,0 +1,14 @@
+{
+  "name": "docker-node-mongo-s3-backup",
+  "version": "1.0.0-rc0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && docker build -t whitecolor/node-mongo-s3-backup:1.0.0-rc0 .",
+    "push": "yarn build && docker push whitecolor/node-mongo-s3-backup:1.0.0-rc0"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.57",
+    "typescript": "^2.6.2"
+  }
+}
